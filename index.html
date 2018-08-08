@@ -152,55 +152,6 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-Java基础(一)" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&lt;?xml version=”1.0” encoding=”UTF-8”?&gt;</p>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"><br>  <modelversion>4.0.0</modelversion><br><br>  <groupid>com</groupid><br>  <artifactid>mmall</artifactid><br>  <version>1.0-SNAPSHOT</version><br>  <packaging>war</packaging><br><br>  <name>mmall Maven Webapp</name><br>  <url><a href="http://maven.apache.org" target="_blank" rel="noopener">http://maven.apache.org</a></url><br><br><br>    <repositories><br>        <repository><br>            <id>sonatype-nexus-snapshots</id><br>            <name>Sonatype Nexus Snapshots</name><br>            <url><a href="http://maven.aliyun.com/nexus/content/groups/public" target="_blank" rel="noopener">http://maven.aliyun.com/nexus/content/groups/public</a></url><br>             <releases><br>              <enabled>false</enabled><br>         </releases><br>               <snapshots><br>              <enabled>true</enabled><br>            </snapshots><br>      </repository><br>    </repositories><br><br><br><br>  <properties><br>    &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;<br>    &lt;project.reporting.outputEncoding&gt;UTF-8&lt;/project.reporting.outputEncoding&gt;<br>    &lt;maven.compiler.encoding&gt;UTF-8&lt;/maven.compiler.encoding&gt;<br><br>    &lt;org.springframework.version&gt;4.0.0.RELEASE&lt;/org.springframework.version&gt;<br>    &lt;org.mybatis.version&gt;3.4.1&lt;/org.mybatis.version&gt;<br>    &lt;org.mybatis.spring.version&gt;1.3.0&lt;/org.mybatis.spring.version&gt;<br>  </properties><br>  <dependencies><br>    <dependency><br>      <groupid>org.apache.tomcat</groupid><br>      <artifactid>tomcat-servlet-api</artifactid><br>      <version>9.0</version><br>    </dependency><br>    <dependency><br>      <groupid>org.springframework</groupid><br>      <artifactid>spring-webmvc</artifactid><br>      <version>${org.springframework.version}</version><br>    </dependency><br>    <dependency><br>      <groupid>org.springframework</groupid><br>      <artifactid>spring-oxm</artifactid><br>      <version>${org.springframework.version}</version><br>    </dependency><br>    <dependency><br>      <groupid>org-springframework</groupid><br>      <artifactid>spring-jdbc</artifactid><br>      <version>${org.springframework.version}</version><br>    </dependency><br>    <dependency><br>      <groupid>org-springframework</groupid><br>      <artifactid>spring-tx</artifactid><br>      <version>${org.springframework.version}</version><br>    </dependency><br>    <dependency><br>      <groupid>org-springframework</groupid><br>      <artifactid>spring-test</artifactid><br>      <version>${org.springframework.version}</version><br>    </dependency><br>    <dependency><br>      <groupid>org.aspectj</groupid><br>      <artifactid>aspectjweaver</artifactid><br>      <version>1.7.3</version><br>    </dependency><br>    <dependency><br>      <groupid>org.mybatis</groupid><br>      <artifactid>mybatis-spring</artifactid><br>      <version>${org.mybatis.spring.version}</version><br>    </dependency><br>    <dependency><br>      <groupid>org.mybatis</groupid><br>      <artifactid>mybatis</artifactid><br>      <version>${org.mybatis.version}</version><br>    </dependency><br>    <dependency><br>      <groupid>org.aspectj</groupid><br>      <artifactid>aspectjrt</artifactid><br>      <version>1.6.11</version><br>    </dependency><br>     <dependency><br>      <groupid>org.codehaus.jackson</groupid><br>      <artifactid>jackson-mapper-asl</artifactid><br>      <version>1.9.12</version><br>    </dependency><br>    <dependency><br>      <groupid>commons-dbcp</groupid><br>      <artifactid>commons-dbcp</artifactid><br>      <version>1.4</version><br>    </dependency><br>    <dependency><br>      <groupid>ch.qos.logback</groupid><br>      <artifactid>logback-classic</artifactid><br>      <version>1.1.2</version><br>      <scope>compile</scope><br>    </dependency><br>    <dependency><br>      <groupid>ch.qos.logback</groupid><br>      <artifactid>logback-core</artifactid><br>      <version>1.1.2</version><br>      <scope>compile</scope><br>    </dependency><br>    <dependency><br>      <groupid>mysql</groupid><br>      <artifactid>mysql-connector-java</artifactid><br>      <version>5.1.6</version><br>    </dependency><br>    <dependency><br>      <groupid>com.google.guava</groupid><br>      <artifactid>guava</artifactid><br>      <version>20.0/version&gt;<br>    </version></dependency><br>    <dependency><br>      <groupid>org.apache.commons</groupid><br>      <artifactid>commons-lang3</artifactid><br>      <version>3.5</version><br>    </dependency><br>    <dependency><br>      <groupid>commons-collections</groupid><br>      <artifactid>commons-collections</artifactid><br>      <version>3.2.1</version><br>    </dependency><br>    <dependency><br>      <groupid>juint</groupid><br>      <artifactid>juint</artifactid><br>      <version>4.12</version><br>    </dependency><br>    <dependency><br>      <groupid>joda-time</groupid><br>      <artifactid>joda-time</artifactid><br>      <version>2.3</version><br>    </dependency><br>    <dependency><br>      <groupid>org.hashids</groupid><br>      <artifactid>hashids</artifactid><br>      <version>1.0.1</version><br>    </dependency><br>    <dependency><br>      <groupid>commons-net</groupid><br>      <artifactid>commons-net</artifactid><br>      <version>3.1</version><br>    </dependency><br>    <dependency><br>      <groupid>commons-fileupload</groupid><br>      <artifactid>commons-fileupload</artifactid><br>      <version>1.2.2</version><br>    </dependency><br>    <dependency><br>      <groupid>com.github.miemiedev</groupid><br>      <artifactid>mybatis-paginator</artifactid><br>      <version>1.2.17</version><br>    </dependency><br>    <dependency><br>      <groupid>com.github.jsqlparser</groupid><br>      <artifactid>jsqlparser</artifactid><br>      <version>0.9.4</version><br>    </dependency><br>    <dependency><br>      <groupid>commons-codec</groupid><br>      <artifactid>commons-codec</artifactid><br>      <version>1.10</version><br>    </dependency><br>    <dependency><br>      <groupid>commons-configuration</groupid><br>      <artifactid>commons-configuration</artifactid><br>      <version>1.10</version><br>    </dependency><br>    <dependency><br>      <groupid>commons-lang</groupid><br>      <artifactid>commons-lang</artifactid><br>      <version>2.6</version><br>    </dependency><br>    <dependency><br>      <groupid>commons-logging</groupid><br>      <artifactid>commons-logging</artifactid><br>      <version>2.1/version&gt;<br>    </version></dependency><br>    <dependency><br>      <groupid>com.google.zxing</groupid><br>      <artifactid>core</artifactid><br>      <version>2.1</version><br>    </dependency><br>    <dependency><br>      <groupid>com.google.code.gson</groupid><br>      <artifactid>gson</artifactid><br>      <version>2.3.1</version><br>    </dependency><br>    <dependency><br>      <groupid>org.hamcrest</groupid><br>      <artifactid>hamcrest-core</artifactid><br>      <version>1.3</version><br>    </dependency><br>    <dependency><br>    <groupid>redis.clients</groupid><br>    <artifactid>jedis</artifactid><br>    <version>2.9.0</version><br></dependency><br>  </dependencies><br><br>  <build><br>    <finalname>mmall</finalname><br>      <plugins><br>        <plugin><br>          <groupid>org.mybatis.generator</groupid><br>          <artifactid>mybatis-generator-maven-plugin</artifactid><br>          <version>1.3.2</version><br>          <configuration><br>            <verbose>true</verbose><br>            <overwrite>true</overwrite><br>          </configuration><br>        </plugin><br><br>        <plugin><br>          <groupid>org.apache.maven.plugins</groupid><br>          <artifactid>maven-compiler-plugin</artifactid><br>          <configuration><br>            <source>1.7<br>            <target>1.7</target><br>            <encoding>UTF-8</encoding><br>            <compilerarguments><br>              <extdirs>${project.basedir}/src/main/webapp/WEB-INF/lib</extdirs><br>            </compilerarguments><br>          </configuration><br>        </plugin><br>      </plugins><br>        <plugin><br><br><br>  </plugin></build><br></project>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/08/08/Java基础(一)/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
